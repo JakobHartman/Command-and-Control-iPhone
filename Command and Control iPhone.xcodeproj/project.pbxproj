@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22104187188DD4EB00B8C17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22104186188DD4EB00B8C17E /* Foundation.framework */; };
+		22104189188DD4EB00B8C17E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22104188188DD4EB00B8C17E /* CoreGraphics.framework */; };
+		2210418B188DD4EB00B8C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2210418A188DD4EB00B8C17E /* UIKit.framework */; };
+		22104191188DD4EB00B8C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2210418F188DD4EB00B8C17E /* InfoPlist.strings */; };
+		22104193188DD4EB00B8C17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22104192188DD4EB00B8C17E /* main.m */; };
+		22104197188DD4EB00B8C17E /* cncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22104196188DD4EB00B8C17E /* cncAppDelegate.m */; };
+		2210419A188DD4EB00B8C17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22104198188DD4EB00B8C17E /* Main.storyboard */; };
+		2210419D188DD4EB00B8C17E /* cncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210419C188DD4EB00B8C17E /* cncViewController.m */; };
+		2210419F188DD4EB00B8C17E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2210419E188DD4EB00B8C17E /* Images.xcassets */; };
+		221041A6188DD4EB00B8C17E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221041A5188DD4EB00B8C17E /* XCTest.framework */; };
+		221041A7188DD4EB00B8C17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22104186188DD4EB00B8C17E /* Foundation.framework */; };
+		221041A8188DD4EB00B8C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2210418A188DD4EB00B8C17E /* UIKit.framework */; };
+		221041B0188DD4EB00B8C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221041AE188DD4EB00B8C17E /* InfoPlist.strings */; };
+		221041B2188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221041B1188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		221041A9188DD4EB00B8C17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2210417B188DD4EB00B8C17E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22104182188DD4EB00B8C17E;
+			remoteInfo = "Command and Control iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22104183188DD4EB00B8C17E /* Command and Control iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Command and Control iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22104186188DD4EB00B8C17E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22104188188DD4EB00B8C17E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2210418A188DD4EB00B8C17E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2210418E188DD4EB00B8C17E /* Command and Control iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Command and Control iPhone-Info.plist"; sourceTree = "<group>"; };
+		22104190188DD4EB00B8C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22104192188DD4EB00B8C17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22104194188DD4EB00B8C17E /* Command and Control iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Command and Control iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		22104195188DD4EB00B8C17E /* cncAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cncAppDelegate.h; sourceTree = "<group>"; };
+		22104196188DD4EB00B8C17E /* cncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cncAppDelegate.m; sourceTree = "<group>"; };
+		22104199188DD4EB00B8C17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2210419B188DD4EB00B8C17E /* cncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cncViewController.h; sourceTree = "<group>"; };
+		2210419C188DD4EB00B8C17E /* cncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cncViewController.m; sourceTree = "<group>"; };
+		2210419E188DD4EB00B8C17E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		221041A4188DD4EB00B8C17E /* Command and Control iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command and Control iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		221041A5188DD4EB00B8C17E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		221041AD188DD4EB00B8C17E /* Command and Control iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Command and Control iPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		221041AF188DD4EB00B8C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		221041B1188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command_and_Control_iPhoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22104180188DD4EB00B8C17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22104189188DD4EB00B8C17E /* CoreGraphics.framework in Frameworks */,
+				2210418B188DD4EB00B8C17E /* UIKit.framework in Frameworks */,
+				22104187188DD4EB00B8C17E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221041A1188DD4EB00B8C17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221041A6188DD4EB00B8C17E /* XCTest.framework in Frameworks */,
+				221041A8188DD4EB00B8C17E /* UIKit.framework in Frameworks */,
+				221041A7188DD4EB00B8C17E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2210417A188DD4EB00B8C17E = {
+			isa = PBXGroup;
+			children = (
+				2210418C188DD4EB00B8C17E /* Command and Control iPhone */,
+				221041AB188DD4EB00B8C17E /* Command and Control iPhoneTests */,
+				22104185188DD4EB00B8C17E /* Frameworks */,
+				22104184188DD4EB00B8C17E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22104184188DD4EB00B8C17E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22104183188DD4EB00B8C17E /* Command and Control iPhone.app */,
+				221041A4188DD4EB00B8C17E /* Command and Control iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22104185188DD4EB00B8C17E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22104186188DD4EB00B8C17E /* Foundation.framework */,
+				22104188188DD4EB00B8C17E /* CoreGraphics.framework */,
+				2210418A188DD4EB00B8C17E /* UIKit.framework */,
+				221041A5188DD4EB00B8C17E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2210418C188DD4EB00B8C17E /* Command and Control iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				22104195188DD4EB00B8C17E /* cncAppDelegate.h */,
+				22104196188DD4EB00B8C17E /* cncAppDelegate.m */,
+				22104198188DD4EB00B8C17E /* Main.storyboard */,
+				2210419B188DD4EB00B8C17E /* cncViewController.h */,
+				2210419C188DD4EB00B8C17E /* cncViewController.m */,
+				2210419E188DD4EB00B8C17E /* Images.xcassets */,
+				2210418D188DD4EB00B8C17E /* Supporting Files */,
+			);
+			path = "Command and Control iPhone";
+			sourceTree = "<group>";
+		};
+		2210418D188DD4EB00B8C17E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2210418E188DD4EB00B8C17E /* Command and Control iPhone-Info.plist */,
+				2210418F188DD4EB00B8C17E /* InfoPlist.strings */,
+				22104192188DD4EB00B8C17E /* main.m */,
+				22104194188DD4EB00B8C17E /* Command and Control iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		221041AB188DD4EB00B8C17E /* Command and Control iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				221041B1188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m */,
+				221041AC188DD4EB00B8C17E /* Supporting Files */,
+			);
+			path = "Command and Control iPhoneTests";
+			sourceTree = "<group>";
+		};
+		221041AC188DD4EB00B8C17E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				221041AD188DD4EB00B8C17E /* Command and Control iPhoneTests-Info.plist */,
+				221041AE188DD4EB00B8C17E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22104182188DD4EB00B8C17E /* Command and Control iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221041B5188DD4EB00B8C17E /* Build configuration list for PBXNativeTarget "Command and Control iPhone" */;
+			buildPhases = (
+				2210417F188DD4EB00B8C17E /* Sources */,
+				22104180188DD4EB00B8C17E /* Frameworks */,
+				22104181188DD4EB00B8C17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Command and Control iPhone";
+			productName = "Command and Control iPhone";
+			productReference = 22104183188DD4EB00B8C17E /* Command and Control iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221041A3188DD4EB00B8C17E /* Command and Control iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221041B8188DD4EB00B8C17E /* Build configuration list for PBXNativeTarget "Command and Control iPhoneTests" */;
+			buildPhases = (
+				221041A0188DD4EB00B8C17E /* Sources */,
+				221041A1188DD4EB00B8C17E /* Frameworks */,
+				221041A2188DD4EB00B8C17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221041AA188DD4EB00B8C17E /* PBXTargetDependency */,
+			);
+			name = "Command and Control iPhoneTests";
+			productName = "Command and Control iPhoneTests";
+			productReference = 221041A4188DD4EB00B8C17E /* Command and Control iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2210417B188DD4EB00B8C17E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = cnc;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Whirling Penguins";
+				TargetAttributes = {
+					221041A3188DD4EB00B8C17E = {
+						TestTargetID = 22104182188DD4EB00B8C17E;
+					};
+				};
+			};
+			buildConfigurationList = 2210417E188DD4EB00B8C17E /* Build configuration list for PBXProject "Command and Control iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2210417A188DD4EB00B8C17E;
+			productRefGroup = 22104184188DD4EB00B8C17E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22104182188DD4EB00B8C17E /* Command and Control iPhone */,
+				221041A3188DD4EB00B8C17E /* Command and Control iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22104181188DD4EB00B8C17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2210419F188DD4EB00B8C17E /* Images.xcassets in Resources */,
+				22104191188DD4EB00B8C17E /* InfoPlist.strings in Resources */,
+				2210419A188DD4EB00B8C17E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221041A2188DD4EB00B8C17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221041B0188DD4EB00B8C17E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2210417F188DD4EB00B8C17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22104193188DD4EB00B8C17E /* main.m in Sources */,
+				2210419D188DD4EB00B8C17E /* cncViewController.m in Sources */,
+				22104197188DD4EB00B8C17E /* cncAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221041A0188DD4EB00B8C17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221041B2188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221041AA188DD4EB00B8C17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22104182188DD4EB00B8C17E /* Command and Control iPhone */;
+			targetProxy = 221041A9188DD4EB00B8C17E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2210418F188DD4EB00B8C17E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22104190188DD4EB00B8C17E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22104198188DD4EB00B8C17E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22104199188DD4EB00B8C17E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		221041AE188DD4EB00B8C17E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221041AF188DD4EB00B8C17E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		221041B3188DD4EB00B8C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		221041B4188DD4EB00B8C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221041B6188DD4EB00B8C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Command and Control iPhone/Command and Control iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Command and Control iPhone/Command and Control iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		221041B7188DD4EB00B8C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Command and Control iPhone/Command and Control iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Command and Control iPhone/Command and Control iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		221041B9188DD4EB00B8C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Command and Control iPhone.app/Command and Control iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Command and Control iPhone/Command and Control iPhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Command and Control iPhoneTests/Command and Control iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		221041BA188DD4EB00B8C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Command and Control iPhone.app/Command and Control iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Command and Control iPhone/Command and Control iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Command and Control iPhoneTests/Command and Control iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2210417E188DD4EB00B8C17E /* Build configuration list for PBXProject "Command and Control iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221041B3188DD4EB00B8C17E /* Debug */,
+				221041B4188DD4EB00B8C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221041B5188DD4EB00B8C17E /* Build configuration list for PBXNativeTarget "Command and Control iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221041B6188DD4EB00B8C17E /* Debug */,
+				221041B7188DD4EB00B8C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		221041B8188DD4EB00B8C17E /* Build configuration list for PBXNativeTarget "Command and Control iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221041B9188DD4EB00B8C17E /* Debug */,
+				221041BA188DD4EB00B8C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2210417B188DD4EB00B8C17E /* Project object */;
+}
