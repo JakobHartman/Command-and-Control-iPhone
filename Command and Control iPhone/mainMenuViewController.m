@@ -1,23 +1,24 @@
 //
-//  cncViewController.m
+//  mainMenuViewController.m
 //  Command and Control iPhone
 //
 //  Created by Steven Smith on 1/20/14.
 //  Copyright (c) 2014 Whirling Penguins. All rights reserved.
 //
 
-#import "cncViewController.h"
+#import "mainMenuViewController.h"
+#import "loginViewController.h" // to get user info
 
-@interface cncViewController ()
+@interface mainMenuViewController ()
 
 @end
 
-@implementation cncViewController
+@implementation mainMenuViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning

@@ -13,14 +13,18 @@
 		22104191188DD4EB00B8C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2210418F188DD4EB00B8C17E /* InfoPlist.strings */; };
 		22104193188DD4EB00B8C17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22104192188DD4EB00B8C17E /* main.m */; };
 		22104197188DD4EB00B8C17E /* cncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22104196188DD4EB00B8C17E /* cncAppDelegate.m */; };
-		2210419A188DD4EB00B8C17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22104198188DD4EB00B8C17E /* Main.storyboard */; };
-		2210419D188DD4EB00B8C17E /* cncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210419C188DD4EB00B8C17E /* cncViewController.m */; };
+		2210419D188DD4EB00B8C17E /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210419C188DD4EB00B8C17E /* mapViewController.m */; };
 		2210419F188DD4EB00B8C17E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2210419E188DD4EB00B8C17E /* Images.xcassets */; };
 		221041A6188DD4EB00B8C17E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221041A5188DD4EB00B8C17E /* XCTest.framework */; };
 		221041A7188DD4EB00B8C17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22104186188DD4EB00B8C17E /* Foundation.framework */; };
 		221041A8188DD4EB00B8C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2210418A188DD4EB00B8C17E /* UIKit.framework */; };
 		221041B0188DD4EB00B8C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221041AE188DD4EB00B8C17E /* InfoPlist.strings */; };
 		221041B2188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221041B1188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m */; };
+		226C9FC2188DD96F001162F8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226C9FC1188DD96F001162F8 /* MapKit.framework */; };
+		226C9FC9188DE183001162F8 /* userCommuncation.m in Sources */ = {isa = PBXBuildFile; fileRef = 226C9FC8188DE183001162F8 /* userCommuncation.m */; };
+		226C9FCC188DF05D001162F8 /* otherCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 226C9FCB188DF05D001162F8 /* otherCommunication.m */; };
+		226C9FD8188DFF10001162F8 /* mainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226C9FD7188DFF10001162F8 /* mainMenuViewController.m */; };
+		2296312D188EE5BD00B5D0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2296312C188EE5BD00B5D0E3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +48,22 @@
 		22104194188DD4EB00B8C17E /* Command and Control iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Command and Control iPhone-Prefix.pch"; sourceTree = "<group>"; };
 		22104195188DD4EB00B8C17E /* cncAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cncAppDelegate.h; sourceTree = "<group>"; };
 		22104196188DD4EB00B8C17E /* cncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cncAppDelegate.m; sourceTree = "<group>"; };
-		22104199188DD4EB00B8C17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2210419B188DD4EB00B8C17E /* cncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cncViewController.h; sourceTree = "<group>"; };
-		2210419C188DD4EB00B8C17E /* cncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cncViewController.m; sourceTree = "<group>"; };
+		2210419B188DD4EB00B8C17E /* mapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		2210419C188DD4EB00B8C17E /* mapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
 		2210419E188DD4EB00B8C17E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		221041A4188DD4EB00B8C17E /* Command and Control iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command and Control iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		221041A5188DD4EB00B8C17E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		221041AD188DD4EB00B8C17E /* Command and Control iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Command and Control iPhoneTests-Info.plist"; sourceTree = "<group>"; };
 		221041AF188DD4EB00B8C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		221041B1188DD4EB00B8C17E /* Command_and_Control_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command_and_Control_iPhoneTests.m; sourceTree = "<group>"; };
+		226C9FC1188DD96F001162F8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		226C9FC7188DE183001162F8 /* userCommuncation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userCommuncation.h; sourceTree = "<group>"; };
+		226C9FC8188DE183001162F8 /* userCommuncation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userCommuncation.m; sourceTree = "<group>"; };
+		226C9FCA188DF05D001162F8 /* otherCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherCommunication.h; sourceTree = "<group>"; };
+		226C9FCB188DF05D001162F8 /* otherCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherCommunication.m; sourceTree = "<group>"; };
+		226C9FD6188DFF10001162F8 /* mainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMenuViewController.h; sourceTree = "<group>"; };
+		226C9FD7188DFF10001162F8 /* mainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMenuViewController.m; sourceTree = "<group>"; };
+		2296312C188EE5BD00B5D0E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 			files = (
 				22104189188DD4EB00B8C17E /* CoreGraphics.framework in Frameworks */,
 				2210418B188DD4EB00B8C17E /* UIKit.framework in Frameworks */,
+				226C9FC2188DD96F001162F8 /* MapKit.framework in Frameworks */,
 				22104187188DD4EB00B8C17E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +113,7 @@
 		22104185188DD4EB00B8C17E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				226C9FC1188DD96F001162F8 /* MapKit.framework */,
 				22104186188DD4EB00B8C17E /* Foundation.framework */,
 				22104188188DD4EB00B8C17E /* CoreGraphics.framework */,
 				2210418A188DD4EB00B8C17E /* UIKit.framework */,
@@ -112,12 +125,13 @@
 		2210418C188DD4EB00B8C17E /* Command and Control iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				22104195188DD4EB00B8C17E /* cncAppDelegate.h */,
-				22104196188DD4EB00B8C17E /* cncAppDelegate.m */,
-				22104198188DD4EB00B8C17E /* Main.storyboard */,
-				2210419B188DD4EB00B8C17E /* cncViewController.h */,
-				2210419C188DD4EB00B8C17E /* cncViewController.m */,
+				2296312C188EE5BD00B5D0E3 /* Main.storyboard */,
+				2210419B188DD4EB00B8C17E /* mapViewController.h */,
+				2210419C188DD4EB00B8C17E /* mapViewController.m */,
+				226C9FD6188DFF10001162F8 /* mainMenuViewController.h */,
+				226C9FD7188DFF10001162F8 /* mainMenuViewController.m */,
 				2210419E188DD4EB00B8C17E /* Images.xcassets */,
+				226C9FC3188DDCC4001162F8 /* Communication */,
 				2210418D188DD4EB00B8C17E /* Supporting Files */,
 			);
 			path = "Command and Control iPhone";
@@ -126,6 +140,8 @@
 		2210418D188DD4EB00B8C17E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22104195188DD4EB00B8C17E /* cncAppDelegate.h */,
+				22104196188DD4EB00B8C17E /* cncAppDelegate.m */,
 				2210418E188DD4EB00B8C17E /* Command and Control iPhone-Info.plist */,
 				2210418F188DD4EB00B8C17E /* InfoPlist.strings */,
 				22104192188DD4EB00B8C17E /* main.m */,
@@ -150,6 +166,17 @@
 				221041AE188DD4EB00B8C17E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		226C9FC3188DDCC4001162F8 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				226C9FC7188DE183001162F8 /* userCommuncation.h */,
+				226C9FC8188DE183001162F8 /* userCommuncation.m */,
+				226C9FCA188DF05D001162F8 /* otherCommunication.h */,
+				226C9FCB188DF05D001162F8 /* otherCommunication.m */,
+			);
+			name = Communication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +227,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Whirling Penguins";
 				TargetAttributes = {
+					22104182188DD4EB00B8C17E = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					221041A3188DD4EB00B8C17E = {
 						TestTargetID = 22104182188DD4EB00B8C17E;
 					};
@@ -229,9 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2296312D188EE5BD00B5D0E3 /* Main.storyboard in Resources */,
 				2210419F188DD4EB00B8C17E /* Images.xcassets in Resources */,
 				22104191188DD4EB00B8C17E /* InfoPlist.strings in Resources */,
-				2210419A188DD4EB00B8C17E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22104193188DD4EB00B8C17E /* main.m in Sources */,
-				2210419D188DD4EB00B8C17E /* cncViewController.m in Sources */,
+				226C9FD8188DFF10001162F8 /* mainMenuViewController.m in Sources */,
+				2210419D188DD4EB00B8C17E /* mapViewController.m in Sources */,
+				226C9FCC188DF05D001162F8 /* otherCommunication.m in Sources */,
 				22104197188DD4EB00B8C17E /* cncAppDelegate.m in Sources */,
+				226C9FC9188DE183001162F8 /* userCommuncation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +318,6 @@
 				22104190188DD4EB00B8C17E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		22104198188DD4EB00B8C17E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22104199188DD4EB00B8C17E /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		221041AE188DD4EB00B8C17E /* InfoPlist.strings */ = {
@@ -461,6 +490,7 @@
 				221041B7188DD4EB00B8C17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221041B8188DD4EB00B8C17E /* Build configuration list for PBXNativeTarget "Command and Control iPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +499,7 @@
 				221041BA188DD4EB00B8C17E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
